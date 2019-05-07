@@ -1,0 +1,249 @@
+/*DEVELOPER: Talha Saleem, IS117-004, Spring 2019*/
+.d-block{
+    width: 90%;
+    height: 60%;
+    padding-left: 5em;
+    padding-bottom: 1em;
+
+}
+.d-block1{
+    width: 90%;
+    height: 50%;
+    padding-left: 5em;
+    padding-bottom: 1em;
+}
+.card1{
+    float: left;
+    margin-left: 8em;
+    margin-right: 5em;
+    width: 10em;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+.card2{
+    float: left;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+.card3{
+    float: left;
+    margin-left: 5em;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#head{
+    padding-top: 1em;
+
+}
+#contact{
+    margin-left: 35%;
+}
+.form-group{
+    width: 50%;
+
+}
+#submit{
+    margin-left: 20%;
+}
+#pic{
+    float: right;
+    width: 25%;
+    height: 15em;
+    margin-right: 10em;
+    margin-left: 2.5em;
+    border: 1px solid black;
+}
+#skills{
+    columns: 2;
+    width: 30em;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+article{
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: justify;
+}
+#h1-about{
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    width: 99%;
+    max-width: 1500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fffded;
+}
+h1{
+    text-align: center;
+}
+#proj-h2{
+    margin-left: 1em;
+}
+#resume-h2{
+    margin-left: 1em;
+}
+#Resume-p{
+    margin-left: 1.5em;
+}
+#res{
+    border-bottom: solid black .5em;
+}
+#proj-p{
+    margin-left: 2em;
+}
+#sche{
+    margin-left: 2em;
+    width: 47%;
+    height: auto;
+}
+#sche1{
+    margin-left: 25em;
+    width: 50%;
+    height: auto;
+
+}
+#scheduler{
+    border: solid black .5em;
+    padding-bottom: 1em;
+}
+#adopt{
+    border: solid black .5em;
+}
+#home-h1{
+    padding-left: 13em;
+    color: green;
+    font-size: 200%;
+
+}
+/* mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    #pic {
+        float: none;
+    }
+    #sche1{
+        float: none;
+        width: 90%;
+        margin-left: 1em;
+    }
+    #sche{
+        float: none;
+        width: 90%;
+    }
+    .card1{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #home-h1{
+        padding-left: 2.5em;
+        font-size: 200%;
+        color: green;
+    }
+    #box{
+        width: 100%;
+        padding-bottom: 1em;
+    }/*
+    #head{
+        margin-right: 50%;
+        padding-top: 1em;
+    }
+    .form-group{
+        width: 100%;
+        margin-right: 100%;
+    }
+    #submit{
+        margin-left: 90%;
+        margin-bottom: 1em;
+    }*/
+}
+    /* mobile portrait layout (479px or less) */
+    @media only screen and (max-width: 479px) {
+        #pic{
+            float: none;
+            font-size: 90%;
+            min-width: 100%
+        }
+        #sche1{
+            float: none;
+            width: 90%;
+            margin-left: 1em;
+        }
+        #sche{
+            float: none;
+        }
+        #home-h1{
+            padding-left: 1em;
+            font-size: 200%;
+            color: green;
+        }
+        .card1{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card2{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card3{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        #box{
+            width: 150%;
+            height: auto;
+            float: none;
+
+        }
+       /* #head{
+            margin-right: 50%;
+            padding-top: 1em;
+        }
+        .form-group{
+            width: 100%;
+            margin-right: 100%;
+        }
+        #submit{
+            margin-left: 90%;
+            margin-bottom: 5em;
+        }*/
+
+    }
